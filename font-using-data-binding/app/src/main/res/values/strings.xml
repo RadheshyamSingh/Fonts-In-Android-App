@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FontUsingDataBinding</string>
+    <string name="sample_text">The quick brown fox jumps over the lazy dog</string>
+</resources>
