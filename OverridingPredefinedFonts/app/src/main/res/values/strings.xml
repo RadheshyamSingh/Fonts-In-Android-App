@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OverridingPredefinedFonts</string>
+    <string name="greatvibes_regular_font">GreateVibes Regular Font</string>
+    <string name="learning_curve_bold_font">Learning Curve Bold Font</string>
+    <string name="learning_curve_regular_font">Learning Curve Regular Font</string>
+    <string name="learning_curve_dashed_font">Learning Curve Dashed Font</string>
+</resources>
