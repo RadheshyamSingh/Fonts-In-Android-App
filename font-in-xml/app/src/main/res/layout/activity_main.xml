@@ -44,8 +44,7 @@
 
     <TextView
         android:id="@+id/textView5"
-        style="@style/textview_style"
-        android:fontFamily="@font/learning_curve_family"
+        style="@style/learning_curve_style"
         android:textStyle="normal"
         android:text="@string/sample_text"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,8 +53,7 @@
 
     <TextView
         android:id="@+id/textView6"
-        style="@style/textview_style"
-        android:fontFamily="@font/learning_curve_family"
+        style="@style/learning_curve_style"
         android:textStyle="bold"
         android:text="@string/sample_text"
         app:layout_constraintEnd_toEndOf="parent"
