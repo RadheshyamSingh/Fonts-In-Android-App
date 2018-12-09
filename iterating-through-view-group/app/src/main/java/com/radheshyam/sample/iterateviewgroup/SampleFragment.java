@@ -13,7 +13,7 @@ import android.view.ViewGroup;
  * Use the {@link SampleFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class SampleFragment extends Fragment {
+public class SampleFragment extends BaseFragment {
 
     public SampleFragment() {
         // Required empty public constructor
@@ -43,12 +43,5 @@ public class SampleFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_sample, container, false);
-    }
-
-    @Override
-    public void onActivityCreated(Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        FontManager fontManager = FontManager.getInstance(getActivity());
-        fontManager.replaceFonts((ViewGroup) this.getView());
     }
 }
