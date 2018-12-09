@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">IterateViewGroup</string>
+    <string name="sample_text">The quick brown fox jumps over the lazy dog</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="move_to_next">Move to Fragment Sample</string>
 </resources>
